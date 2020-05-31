@@ -1,0 +1,49 @@
+@import "../App.scss";
+
+
+// Estilos Botón Cerrar
+.btn-close-container {
+  display: flex;
+  flex-direction: row;  
+  width: 100vw;
+  height: 8%;
+}
+.correct-margin-OB{
+  width: 92%;
+}
+.btn-close {
+    width: 8%;
+    justify-content: center;
+    align-items: center;
+    padding-right: 6.4%;
+}
+
+// Estilos Pantallas
+
+.onBoarding-Container{
+    margin-top: 18%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+.imgOB{
+    width: 63.5vw;
+  }
+  .titleOB{
+    font-size: 2.5rem;
+    color: #01748e;
+    width: 68.2vw;
+    text-align: center;
+    margin-top: 8.2%;
+  }
+  .textOB{
+  font-size: 1.6rem;
+  color: #2d2d2d;
+  width: 85.3vw;
+  text-align: center;
+  margin-top: 3.5%;
+  margin-bottom: 17.5%;
+  text-align: center;
+  }

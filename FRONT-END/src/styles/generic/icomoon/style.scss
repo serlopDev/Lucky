@@ -1,0 +1,157 @@
+@import "variables";
+
+// Colores
+
+$ice: #f1fffa;
+$tiffanyBlue: #6af7dd;
+$cloudyBlue: #bdd2d6;
+$ocean: #01748e;
+$pineGreen: #0e363d;
+$black: #2d2d2d;
+$white: #d8d8d8;
+$lightSalmon: #fa9c93;
+$greyishBrown: #555555;
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?w2pa1q');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?w2pa1q#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?w2pa1q') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?w2pa1q') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?w2pa1q##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-atras {
+  &:before {
+    content: $icon-atras; 
+  }
+}
+.icon-buscar {
+  &:before {
+    content: $icon-buscar; 
+  }
+}
+.icon-cat {
+  &:before {
+    content: $icon-cat; 
+  }
+}
+.icon-conejo {
+  &:before {
+    content: $icon-conejo; 
+  }
+}
+.icon-female {
+  &:before {
+    content: $icon-female; 
+  }
+}
+.icon-filtros {
+  &:before {
+    content: $icon-filtros; 
+  }
+}
+.icon-group-copy-2 {
+  &:before {
+    content: $icon-group-copy-2; 
+  }
+}
+.icon-group-copy {
+  &:before {
+    content: $icon-group-copy; 
+  }
+}
+.icon-group {
+  &:before {
+    content: $icon-group; 
+  }
+}
+.icon-hamster {
+  &:before {
+    content: $icon-hamster; 
+  }
+}
+.icon-home {
+  &:before {
+    content: $icon-home; 
+  }
+}
+.icon-male {
+  &:before {
+    content: $icon-male; 
+  }
+}
+.icon-mapa {
+  &:before {
+    content: $icon-mapa; 
+  }
+}
+.icon-mas-button {
+  &:before {
+    content: $icon-mas-button; 
+  }
+}
+.icon-mascota {
+  &:before {
+    content: $icon-mascota; 
+  }
+}
+.icon-more {
+  &:before {
+    content: $icon-more; 
+  }
+}
+.icon-ojo {
+  &:before {
+    content: $icon-ojo; 
+  }
+}
+.icon-perro {
+  &:before {
+    content: $icon-perro; 
+  }
+}
+
+// Correción de los iconos
+
+
+.icon-home{
+  color: #01748e;
+  font-size: 6.4vw;
+}
+.icon-mapa{
+  color: #01748e;
+  font-size: 6.4vw;
+}
+.icon-mascota{  
+  color: #01748e;
+  font-size: 6.4vw;
+}
+.icon-more{
+  color: #01748e;
+  font-size: 6.4vw;
+}
+.icon-atras{
+  color: #fa9c93;
+  font-size: 6.4vw;
+}
+
+

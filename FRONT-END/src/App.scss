@@ -1,0 +1,136 @@
+@import './src/styles/generic/icomoon/style.scss';
+@import './styles/generic/icomoon/style.scss';
+
+// Colores
+
+$ice: #f1fffa;
+$tiffanyBlue: #6af7dd;
+$cloudyBlue: #bdd2d6;
+$ocean: #01748e;
+$pineGreen: #0e363d;
+$black: #2d2d2d;
+$white: #d8d8d8;
+$lightSalmon: #fa9c93;
+$greyishBrown: #555555;
+$inAdoption: #00D400;
+$inProcess: #f5a623;
+$rejected: #f44332;
+
+
+// Estilos App General
+/* 
+Calculamos el porcentaje de ancho de nuestro componente:
+Dividimos el ancho del componente entre el de nuestra app (375)
+y multiplicamos por 100, y tendremos nuestro VW
+*/
+
+html{
+  font-size: 10px;
+  font-family:  'Barlow', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.App{
+  box-sizing: border-box;
+  height: 667px;
+  width: 375px;
+  padding: 0px;
+  margin: 0px;
+  font-family:  'Barlow', sans-serif;
+}
+input:focus{
+  outline:0px;
+}
+ul{
+  padding-inline-start: 0rem;
+}
+h3{
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
+.content{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+}
+.content a{
+  text-decoration: none;
+}
+
+/* Medidas Otros móviles */
+
+// Móviles grandes
+
+@media (min-width: 400px) and (max-width: 800px)
+{
+  .App{
+    box-sizing: border-box;
+    height:700px;
+    width: 400px;
+    padding: 0px;
+    margin: 0px;
+    font-family:  'Barlow', sans-serif;
+  }
+}
+
+
+// Galaxy S5
+
+@media (max-width: 360px)
+{
+  .App{
+    box-sizing: border-box;
+    height: 640px;
+    width: 360px;
+    padding: 0px;
+    margin: 0px;
+  }
+}
+
+// Iphone 5/SE
+
+@media (max-width: 320px)
+{
+  .App{
+    box-sizing: border-box;
+    height: 568px;
+    width: 320px;
+    padding: 0px;
+    margin: 0px;
+}
+}
+
+// Ipad y tablets
+
+@media (min-width: 768px) and (max-width: 1000px)
+{
+  .App{
+    box-sizing: border-box;
+    height: 1024px;
+    width: 768px;
+    padding: 0px;
+    margin: 0px;
+}
+html{
+  font-size: 16px;
+}
+}
+
+@media(min-width: 1010px) and (max-width: 1400px)
+{
+  .App{
+    box-sizing: border-box;
+    height: 1366px;
+    width: 1024px;
+    padding: 0px;
+    margin: 0px;
+}
+html{
+  font-size: 25px;
+}
+}

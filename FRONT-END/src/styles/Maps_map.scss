@@ -1,0 +1,32 @@
+@import "../App.scss";
+
+// Hoja de estilos de mapas
+
+// Barra de búsqueda
+
+.bar-container{
+    width: 100%;
+    height: 6vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 3.1vh;
+    margin-top: 5vh;
+}
+.search-bar-maps{
+    padding-left: 6.2%;
+    margin-left: 5%;
+    text-align: left;
+    width: 80vw;
+    height: 3.9vh;
+    border: 2px solid $cloudyBlue;
+    font-size: 1rem;
+    border-radius: 28px;
+}
+.leaflet-container{
+   width: 100vw;
+   height: 79vh;
+}
+
+  

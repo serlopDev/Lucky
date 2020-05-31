@@ -1,0 +1,17 @@
+{
+"type": "FeatureCollection",
+"name": "Veterinarios",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Name": "Centro Veterinario Kliper Barajas Madrid", "description": null }, "geometry": { "type": "Point", "coordinates": [ -3.586924, 40.4565732 ] } },
+{ "type": "Feature", "properties": { "Name": "Veterinario Los Cachorros", "description": null }, "geometry": { "type": "Point", "coordinates": [ -3.577919, 40.443853 ] } },
+{ "type": "Feature", "properties": { "Name": "Clinica Veterinaria Plutos", "description": null }, "geometry": { "type": "Point", "coordinates": [ -3.59036470000001, 40.4563981 ] } },
+{ "type": "Feature", "properties": { "Name": "Hospital Veterinario Mediterraneo", "description": null }, "geometry": { "type": "Point", "coordinates": [ -3.67641570000001, 40.4071008 ] } },
+{ "type": "Feature", "properties": { "Name": "Centro Veterinario Medican", "description": null }, "geometry": { "type": "Point", "coordinates": [ -3.6935933, 40.4657968 ] } },
+{ "type": "Feature", "properties": { "Name": "Centro Veterinario Madrid", "description": null }, "geometry": { "type": "Point", "coordinates": [ -3.71634210000002, 40.4379418 ] } },
+{ "type": "Feature", "properties": { "Name": "CV Madrid Exóticos", "description": null }, "geometry": { "type": "Point", "coordinates": [ -3.7110669, 40.4327412 ] } },
+{ "type": "Feature", "properties": { "Name": "Clínica Veterinaria Velázquez", "description": null }, "geometry": { "type": "Point", "coordinates": [ -3.68341, 40.436251 ] } },
+{ "type": "Feature", "properties": { "Name": "Anaga Centro Veterinario", "description": null }, "geometry": { "type": "Point", "coordinates": [ -3.6182275, 40.4345094 ] } },
+{ "type": "Feature", "properties": { "Name": "Las Musas Clínica Veterinaria", "description": null }, "geometry": { "type": "Point", "coordinates": [ -3.6092345, 40.427552 ] } }
+]
+}

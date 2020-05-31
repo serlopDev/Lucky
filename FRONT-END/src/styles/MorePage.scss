@@ -1,0 +1,45 @@
+@import "../App.scss";
+
+// Hoja de estilo página More
+
+.margin-corrector{
+  margin-top:  7.6vh;
+}
+.more-data-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 94%;
+  height: 7.5%;
+  border: 1pt solid $cloudyBlue;
+  border-radius: 4pt;
+  margin-bottom: 3.6vh;
+}
+.more-data-container  h2 {
+  width: 85%;
+  text-align: left;
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: $ocean;
+}
+.data-ico {
+  width: 6.8%;
+  padding-left: 3%;
+}
+.adelante-arrow {
+  width: 6.4;
+  justify-content: right;
+}
+
+.login-btn-more{
+  margin-top: 30%;
+  margin-bottom: 25vh;
+  width: 94vw;
+  height: 6vh;
+  background-color: $ocean;
+  border-radius: 4pt;
+  text-align: center;
+  font-size: 1.6rem;
+  color: white;
+  justify-self: center;
+}

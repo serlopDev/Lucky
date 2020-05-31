@@ -1,0 +1,329 @@
+@import "../App.scss";
+
+// Hoa de estilos de AnimalPerfil
+
+// Contenedor de la imagen
+
+.btn-atras-container{
+  width: 100%;
+  align-items: flex-start;
+}
+.icon-atras{
+  margin-left: 8vw;
+  top: 6.3%;
+  z-index: 3;
+  position: absolute;
+}
+.AP-img-container {
+  width: 100%;
+}
+.img-AP {
+  width: 100%;
+}
+
+// Banner flotante con datos
+
+.data-banner-AP {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  width: 60%;
+  height: 8.8vh;
+  top: 23vh;
+  background-color: white;
+  border-radius: 4pt;
+  position: absolute;
+  z-index: 2;
+}
+.sex-ico-AP {
+  margin-left: 7%;
+  margin-right: 4%;
+  width: 5.5vw;
+  height: 5.5vh;
+}
+.data-container {
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 0 4% 0 4%;
+}
+.data-container h3 {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: $black;
+}
+.data-container p {
+  padding: 0;
+  margin: 0;
+  font-size: 1.2rem;
+  color: $black;
+}
+
+// Botones y contenedor de datos
+
+.AP-buttons-container {
+  margin-top: 7.5vh;
+
+  width: 100%;
+}
+.btn-AP-data {
+  padding: 0;
+  margin: 0;
+
+  width: 33%;
+  height: 7.4%;
+  font-size: 1.6rem;
+  color: $greyishBrown;
+}
+.btn-AP-data:focus{
+  padding: 0;
+  margin: 0;
+
+  width: 33%;
+  height: 7.4%;
+  font-size: 1.6rem;
+  font-weight: 600;
+  background-color: white;
+  border: none;
+  outline: none;
+
+  color: $ocean;
+  border-bottom: 2pt solid $lightSalmon;
+}
+.AP-animal-data-container {
+  width: 91.4%;
+  margin-top: 3vh;
+  margin-bottom: 3.6vh;
+  align-items: center;
+}
+
+// Contenedor de Historia del animal
+
+.AP-story-container {
+  width: 94.6%;
+  height: auto;
+  border: 1pt solid #01748e20;
+  border-radius: 4pt;
+  text-align: left;
+}
+.AP-story-container h3 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: $ocean;
+  padding: 2% 1.7% 0 1.7%;
+}
+.AP-story-container p {
+  font-size: 1.6rem;
+  color: $black;
+  padding: 0 1.7% 0 1.7%;
+}
+
+// Botón de adopción del animal
+
+.adopt-AP-btn {
+  width: 28%;
+  height: 5.2vh;
+  font-size: 1.6rem;
+  background-color: $lightSalmon;
+  border-radius: 4pt;
+  color: white;
+  margin-top: 5%;
+  margin-bottom: 5vh;
+  border: 0;
+}
+
+// Estilos de datos cargados de BBDD
+
+.margin-correct-DA{
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.data-container-DA {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.ico-text-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  justify-items: flex-start;
+  width: 94.6%;
+
+  margin-bottom: 2vh;
+}
+.ico-text-container img {
+  width: 5.8%;
+  padding-right: 3%;
+}
+.text-container-DA {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 88.5%;
+}
+.text-container-DA p {
+  padding: 0;
+  margin: 0;
+  font-size: 1.5rem;
+  color: $black;
+}
+
+.data-container-AA{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  width: 94.5%;
+  height: 10%;
+  border-radius: 4pt;
+  border: 1pt solid #01748e20;
+  margin-bottom: 3.6vh;
+}
+.data-container-AA h3{
+  padding: 2%;
+  margin: 0 0 2% 0;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: $ocean;
+}
+.data-container-AA p{
+  padding: 2%;
+  margin: 0 0 5% 0;
+  font-size: 1.6rem;
+  color: $black;
+}
+
+// Estilos de Advertisement
+
+.correct-margin{
+  padding: 0;
+  margin: 0;
+
+  position: absolute;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.floating-box{
+  position: absolute;
+  z-index: 3;
+  background-color: #bdd2d6d3;
+  width: 100vw;
+  height: 105vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.change-color{
+  width: 100%;
+  height: 100%;
+  background-color: #bdd2d6ad;
+}
+
+.advertisement-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 84vw;
+    height: 65%;
+    background-color: white;
+    border-radius: 12pt;
+}
+.advertisement-title{
+    width: 75%;
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: $ocean;
+    margin-bottom: 4.3%;
+}
+.advertisement-container p{
+    width: 75%;
+    font-size: 1.6rem;
+    text-align: center;
+    color: $black;
+    margin-bottom: 5.8%;
+}
+.advertisement-video{
+    width: 75%;
+    margin-bottom: 5.8%;
+}
+.advertisement-subtitle{
+    width: 75%;
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-align: center;
+    color: $ocean;
+    margin-bottom: 3vh;
+}
+.advertisement-btn-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 28%;
+    border-top: 1px solid $cloudyBlue;
+}
+.advertisement-btn-container input{
+    width: 50%;
+    border-radius: 0pt;
+    background: none;
+    border: 0px;
+}
+#continuar{
+    padding: 3%;
+    margin: 0%;
+    height: 100%;
+    width: 100%;
+    font-size: 1.6rem;
+    text-align: center;
+    text-justify: distribute;
+    color: $pineGreen;
+    opacity: 50%; 
+    border-radius: 0 0 12pt 0;
+}
+#continuar:active{
+    color: white;
+    background-color: $ocean;
+}
+.continue-link{
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 50%;
+  font-size: 1.6rem;
+  text-align: center;
+  text-justify: distribute;
+  color: $pineGreen;
+  opacity: 50%; 
+  border-radius: 0 0 12pt 0;
+}
+#cancelar{
+    padding: 3%;
+    margin: 0%;
+    height: 100%;
+    font-size: 1.6rem;
+    text-align: center;
+    text-justify: distribute;
+    color: $lightSalmon;
+    border-right: 1px solid $cloudyBlue;
+    border-radius: 0 0 0 12pt;
+}
+#cancelar:active{
+  color: white;
+  background-color: $lightSalmon;
+}

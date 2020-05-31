@@ -1,0 +1,17 @@
+{
+"type": "FeatureCollection",
+"name": "Protectoras",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Name": "Sociedad Protectora de Animales y Plantas de Madrid", "description": null }, "geometry": { "type": "Point", "coordinates": [ -3.7171857, 40.4640823 ] } },
+{ "type": "Feature", "properties": { "Name": "Proa", "description": null }, "geometry": { "type": "Point", "coordinates": [ -3.73295880000001, 40.3796178 ] } },
+{ "type": "Feature", "properties": { "Name": "Fundación Acuai", "description": null }, "geometry": { "type": "Point", "coordinates": [ -3.68577490000007, 40.4265619 ] } },
+{ "type": "Feature", "properties": { "Name": "Fundación Wordforge", "description": null }, "geometry": { "type": "Point", "coordinates": [ -3.6628121, 40.4670384 ] } },
+{ "type": "Feature", "properties": { "Name": "Fundación Iruartiz Lezama", "description": null }, "geometry": { "type": "Point", "coordinates": [ -3.6219188, 40.3753334 ] } },
+{ "type": "Feature", "properties": { "Name": "Vidas Enjauladas", "description": null }, "geometry": { "type": "Point", "coordinates": [ -3.7018545, 40.4191302 ] } },
+{ "type": "Feature", "properties": { "Name": "Asociación Protectora de Animales La Estrella Animal", "description": null }, "geometry": { "type": "Point", "coordinates": [ -3.71044180000001, 40.4244672 ] } },
+{ "type": "Feature", "properties": { "Name": "Centro Municipal - Centro Integral de Protección Animal", "description": null }, "geometry": { "type": "Point", "coordinates": [ -3.8140019, 40.3393665 ] } },
+{ "type": "Feature", "properties": { "Name": "NUEVAVIDA-Adopciones", "description": null }, "geometry": { "type": "Point", "coordinates": [ -3.875054, 40.472826 ] } },
+{ "type": "Feature", "properties": { "Name": "Rivanimal", "description": null }, "geometry": { "type": "Point", "coordinates": [ -3.5252873, 40.3365484 ] } }
+]
+}

@@ -1,0 +1,273 @@
+@import "../App.scss";
+@import "../styles/ResultsFilters.scss";
+
+// Hoja de estilos de Adoption Status
+
+.status-animal-container{
+    display: flex;
+    flex-direction: column;
+    width: 89.5%;
+    height: 23.5;
+    border: 2pt solid $cloudyBlue;
+    border-radius: 4pt;
+    align-content: center;
+
+    margin-bottom: 3.6vh;
+    padding-top: 3vh;
+}
+.status-img-data-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 85.5%;
+
+    margin-top: 2.4vh;
+    margin-bottom: 2.4vh;
+}
+.status-text-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 19.5%;
+}
+.status-text-container h3{
+    color: $ocean;
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-align: left;
+    width: 46%;
+
+    padding: 0;
+    margin: 0;
+    
+    margin-left: 6.25%;
+    margin-right: 15%;
+}
+.text-inadoption{
+    padding: 0;
+    margin: 0;
+
+    color: $inAdoption;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.circle-inadoption{
+    padding: 0;
+    margin: 0;
+    margin-right: 6.25%;
+    margin-left: 1.8%;
+
+    width: 3.4vw;
+    height: 3.4vw;
+    border-radius: 50%;
+    background-color: $inAdoption;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+.text-inprocess{
+    padding: 0;
+    margin: 0;
+
+    color: $inProcess;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.circle-inprogress{
+    padding: 0;
+    margin: 0;
+    margin-right: 6.25%;
+    margin-left: 1.8%;
+
+    width: 3.4vw;
+    height: 3.4vw;
+    border-radius: 50%;
+    background-color: $inProcess;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+.status-photo-wrap{
+    margin-left: 9.2%;
+
+    width: 28.8vw;
+    height: 28.8vw;
+
+    border: 2pt solid $cloudyBlue;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.status-photo-wrap img {
+    width: 180%;
+}
+.text-container-status{
+    width: 28.8vw;
+}
+.text-container-status{
+    margin-right: 15%;
+
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: $black;
+}
+.statements{
+    margin-right: 5vw;
+}
+
+
+.text-rejected{
+    padding: 0;
+    margin: 0;
+
+    color: $rejected;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.circle-rejected{
+    margin: 0;
+    padding: 0;
+    margin-right: 6.25%;
+
+    width: 3.4vw;
+    height: 3.4vw;
+    border-radius: 50%;
+    background-color: $rejected;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+
+// Estilos FilterStatus
+
+.floating-container{
+    position: absolute;
+    z-index: 3;
+    background-color: #bdd2d6d3;
+    width: 100vw;
+    height: 100vh;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+}
+.filter-status-container{
+    padding: 0;
+    margin: 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 81.8%;
+    height: 30%;
+    background-color: white;
+    border-radius: 8pt;
+
+}
+.filter-status-container h3{
+    font-size: 2rem;
+    font-weight: 600;
+    color: $ocean;
+    text-align: center;
+    margin-top: 6.9%;
+}
+.icon-container-FS{
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: space-around;
+    width: 85.6%;
+    height: 33.2%;
+}
+.completed-btn{
+    width: 20.5vw;
+    height: 20.5vw;
+    background-color: white;
+    border: none;
+    border-radius: 8pt;
+    background-image: url(../assets/icons_svg/process_filters/completado.svg);
+}
+.completed-btn:focus{
+    width: 20.5vw;
+    height: 20.5vw;
+    background-color: white;
+    border: none;
+    border-radius: 8pt;
+    background-image: url(../assets/icons_svg/process_filters/completado_checked.svg);
+
+    border: none;
+    outline: none;
+}
+.in_process-btn{
+    width: 20.5vw;
+    height: 20.5vw;
+    background-color: white;
+    border: none;
+    border-radius: 8pt;
+    background-image: url(../assets/icons_svg/process_filters/en_proceso.svg);
+}
+.in_process-btn:focus{
+    width: 20.5vw;
+    height: 20.5vw;
+    background-color: white;
+    border: none;
+    border-radius: 8pt;
+    background-image: url(../assets/icons_svg/process_filters/en_proceso_checked.svg);
+
+    border: none;
+    outline: none;
+}
+.rejected-btn{
+    width: 20.5vw;
+    height: 20.5vw;
+    background-color: white;
+    border: none;
+    border-radius: 8pt;
+    background-image: url(../assets/icons_svg/process_filters/rechazado.svg);
+}
+.rejected-btn:focus{
+    width: 20.5vw;
+    height: 20.5vw;
+    background-color: white;
+    border: none;
+    border-radius: 8pt;
+    background-image: url(../assets/icons_svg/process_filters/rechazado_checked.svg);
+
+    border: none;
+    outline: none;
+}
+.apply-btn-FS{
+    width: 88.6%;
+    height: 17.2%;
+    background-color: $lightSalmon;
+    font-size: 1.6rem;
+    color: white;
+    border-radius: 4pt;
+    margin-bottom: 10%;
+}
+.btn-container-link{
+    
+}
+
+// Estilos de FilterResultsAs 
+
+.before-btn-FR{
+    margin-top: 5vh;
+    width: 100vw;
+    height: 10vh;
+}
+.before-btn-FR img {
+    margin-left: 8%;
+}
