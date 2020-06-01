@@ -18,11 +18,11 @@ Proyecto Lucky de Sergio y Jose
 
     npm install
 
-# Para iniciar el proyecto debemos ir a la carpeta lucky-project e iniciar el proyecto de react con el siguiente comando:
+# Para iniciar el proyecto debemos ir a la carpeta FRONT-END e iniciar el proyecto de react con el siguiente comando:
 
     npm start
 
-# Después iniciar el Back End en NODE JS entrando en la carpeta Lucky y ejecutando el comando:
+# Después iniciar el Back End en NODE JS entrando en la carpeta BACK-END y ejecutando el comando:
 
     npm start
 
